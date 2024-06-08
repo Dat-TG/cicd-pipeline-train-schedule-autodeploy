@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: train-schedule
-          image: rahul4884/train-schedule:latest
+          image: ddawst/train-schedule:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
